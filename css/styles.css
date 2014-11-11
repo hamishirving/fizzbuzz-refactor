@@ -1,0 +1,71 @@
+body {
+	width: 800px;
+	margin: 40px auto;
+	font-family: 'Fira Mono';
+	color: #32FA3A;
+	font-size: 18px;
+	background-color: #303030;
+}
+
+.wrap {
+	width: 50%;
+	margin: 100px auto;
+	text-align: center;
+}
+
+input {
+	height: 45px;
+	width: 360px;
+	font-size: 18px;
+	line-height: 20px;
+	border-radius: 3px;
+	outline: 0;
+	padding: 0 10px;
+	margin: 0;
+	border: none;
+	-webkit-appearance:none;
+}
+
+.enter {
+	width: 185px;
+	height: 45px;
+	margin-top: 20px;
+	border-radius: 3px;
+	color: #303030;
+	font-size: 18px;
+	font-weight: bold;
+	border: none;
+	outline: none;
+	background-color: #32FA3A;
+	cursor: pointer;
+	display: inline;
+}
+
+.enter:hover {
+	background-color: #2DE034;
+}
+
+.clear {
+	width: 185px;
+	height: 45px;
+	margin-top: 20px;
+	border-radius: 3px;
+	color: #303030;
+	font-size: 18px;
+	font-weight: bold;
+	border: none;
+	outline: none;
+	background-color: #999999;
+	cursor: pointer;
+}
+
+.clear:hover {
+	background-color: #888888;
+}
+
+.output {
+	background-color: #222;
+	margin-top: 20px;
+	padding: 10px 10px;
+	display: none;
+}
